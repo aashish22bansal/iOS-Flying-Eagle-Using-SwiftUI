@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179BBE9F29ACED02006DDC58 /* Flying_EagleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179BBE9E29ACED02006DDC58 /* Flying_EagleApp.swift */; };
+		179BBEA129ACED02006DDC58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179BBEA029ACED02006DDC58 /* ContentView.swift */; };
+		179BBEA329ACED05006DDC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179BBEA229ACED05006DDC58 /* Assets.xcassets */; };
+		179BBEA729ACED05006DDC58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179BBEA629ACED05006DDC58 /* Preview Assets.xcassets */; };
+		179BBEB129ACED05006DDC58 /* Flying_EagleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179BBEB029ACED05006DDC58 /* Flying_EagleTests.swift */; };
+		179BBEBB29ACED05006DDC58 /* Flying_EagleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179BBEBA29ACED05006DDC58 /* Flying_EagleUITests.swift */; };
+		179BBEBD29ACED05006DDC58 /* Flying_EagleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179BBEBC29ACED05006DDC58 /* Flying_EagleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179BBEAD29ACED05006DDC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179BBE9329ACED02006DDC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179BBE9A29ACED02006DDC58;
+			remoteInfo = "Flying Eagle";
+		};
+		179BBEB729ACED05006DDC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179BBE9329ACED02006DDC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179BBE9A29ACED02006DDC58;
+			remoteInfo = "Flying Eagle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179BBE9B29ACED02006DDC58 /* Flying Eagle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Eagle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BBE9E29ACED02006DDC58 /* Flying_EagleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_EagleApp.swift; sourceTree = "<group>"; };
+		179BBEA029ACED02006DDC58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		179BBEA229ACED05006DDC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179BBEA429ACED05006DDC58 /* Flying_Eagle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flying_Eagle.entitlements; sourceTree = "<group>"; };
+		179BBEA629ACED05006DDC58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		179BBEAC29ACED05006DDC58 /* Flying EagleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying EagleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BBEB029ACED05006DDC58 /* Flying_EagleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_EagleTests.swift; sourceTree = "<group>"; };
+		179BBEB629ACED05006DDC58 /* Flying EagleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying EagleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BBEBA29ACED05006DDC58 /* Flying_EagleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_EagleUITests.swift; sourceTree = "<group>"; };
+		179BBEBC29ACED05006DDC58 /* Flying_EagleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_EagleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179BBE9829ACED02006DDC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEA929ACED05006DDC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEB329ACED05006DDC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179BBE9229ACED02006DDC58 = {
+			isa = PBXGroup;
+			children = (
+				179BBE9D29ACED02006DDC58 /* Flying Eagle */,
+				179BBEAF29ACED05006DDC58 /* Flying EagleTests */,
+				179BBEB929ACED05006DDC58 /* Flying EagleUITests */,
+				179BBE9C29ACED02006DDC58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179BBE9C29ACED02006DDC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179BBE9B29ACED02006DDC58 /* Flying Eagle.app */,
+				179BBEAC29ACED05006DDC58 /* Flying EagleTests.xctest */,
+				179BBEB629ACED05006DDC58 /* Flying EagleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179BBE9D29ACED02006DDC58 /* Flying Eagle */ = {
+			isa = PBXGroup;
+			children = (
+				179BBE9E29ACED02006DDC58 /* Flying_EagleApp.swift */,
+				179BBEA029ACED02006DDC58 /* ContentView.swift */,
+				179BBEA229ACED05006DDC58 /* Assets.xcassets */,
+				179BBEA429ACED05006DDC58 /* Flying_Eagle.entitlements */,
+				179BBEA529ACED05006DDC58 /* Preview Content */,
+			);
+			path = "Flying Eagle";
+			sourceTree = "<group>";
+		};
+		179BBEA529ACED05006DDC58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				179BBEA629ACED05006DDC58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		179BBEAF29ACED05006DDC58 /* Flying EagleTests */ = {
+			isa = PBXGroup;
+			children = (
+				179BBEB029ACED05006DDC58 /* Flying_EagleTests.swift */,
+			);
+			path = "Flying EagleTests";
+			sourceTree = "<group>";
+		};
+		179BBEB929ACED05006DDC58 /* Flying EagleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				179BBEBA29ACED05006DDC58 /* Flying_EagleUITests.swift */,
+				179BBEBC29ACED05006DDC58 /* Flying_EagleUITestsLaunchTests.swift */,
+			);
+			path = "Flying EagleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179BBE9A29ACED02006DDC58 /* Flying Eagle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BBEC029ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying Eagle" */;
+			buildPhases = (
+				179BBE9729ACED02006DDC58 /* Sources */,
+				179BBE9829ACED02006DDC58 /* Frameworks */,
+				179BBE9929ACED02006DDC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Eagle";
+			productName = "Flying Eagle";
+			productReference = 179BBE9B29ACED02006DDC58 /* Flying Eagle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179BBEAB29ACED05006DDC58 /* Flying EagleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BBEC329ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying EagleTests" */;
+			buildPhases = (
+				179BBEA829ACED05006DDC58 /* Sources */,
+				179BBEA929ACED05006DDC58 /* Frameworks */,
+				179BBEAA29ACED05006DDC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179BBEAE29ACED05006DDC58 /* PBXTargetDependency */,
+			);
+			name = "Flying EagleTests";
+			productName = "Flying EagleTests";
+			productReference = 179BBEAC29ACED05006DDC58 /* Flying EagleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		179BBEB529ACED05006DDC58 /* Flying EagleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BBEC629ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying EagleUITests" */;
+			buildPhases = (
+				179BBEB229ACED05006DDC58 /* Sources */,
+				179BBEB329ACED05006DDC58 /* Frameworks */,
+				179BBEB429ACED05006DDC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179BBEB829ACED05006DDC58 /* PBXTargetDependency */,
+			);
+			name = "Flying EagleUITests";
+			productName = "Flying EagleUITests";
+			productReference = 179BBEB629ACED05006DDC58 /* Flying EagleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179BBE9329ACED02006DDC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					179BBE9A29ACED02006DDC58 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					179BBEAB29ACED05006DDC58 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 179BBE9A29ACED02006DDC58;
+					};
+					179BBEB529ACED05006DDC58 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 179BBE9A29ACED02006DDC58;
+					};
+				};
+			};
+			buildConfigurationList = 179BBE9629ACED02006DDC58 /* Build configuration list for PBXProject "Flying Eagle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179BBE9229ACED02006DDC58;
+			productRefGroup = 179BBE9C29ACED02006DDC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179BBE9A29ACED02006DDC58 /* Flying Eagle */,
+				179BBEAB29ACED05006DDC58 /* Flying EagleTests */,
+				179BBEB529ACED05006DDC58 /* Flying EagleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179BBE9929ACED02006DDC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BBEA729ACED05006DDC58 /* Preview Assets.xcassets in Resources */,
+				179BBEA329ACED05006DDC58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEAA29ACED05006DDC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEB429ACED05006DDC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179BBE9729ACED02006DDC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BBEA129ACED02006DDC58 /* ContentView.swift in Sources */,
+				179BBE9F29ACED02006DDC58 /* Flying_EagleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEA829ACED05006DDC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BBEB129ACED05006DDC58 /* Flying_EagleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BBEB229ACED05006DDC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BBEBD29ACED05006DDC58 /* Flying_EagleUITestsLaunchTests.swift in Sources */,
+				179BBEBB29ACED05006DDC58 /* Flying_EagleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179BBEAE29ACED05006DDC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179BBE9A29ACED02006DDC58 /* Flying Eagle */;
+			targetProxy = 179BBEAD29ACED05006DDC58 /* PBXContainerItemProxy */;
+		};
+		179BBEB829ACED05006DDC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179BBE9A29ACED02006DDC58 /* Flying Eagle */;
+			targetProxy = 179BBEB729ACED05006DDC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		179BBEBE29ACED05006DDC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		179BBEBF29ACED05006DDC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		179BBEC129ACED05006DDC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Flying Eagle/Flying_Eagle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flying Eagle/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-Eagle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179BBEC229ACED05006DDC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Flying Eagle/Flying_Eagle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flying Eagle/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-Eagle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		179BBEC429ACED05006DDC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-EagleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Eagle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flying Eagle";
+			};
+			name = Debug;
+		};
+		179BBEC529ACED05006DDC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-EagleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Eagle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flying Eagle";
+			};
+			name = Release;
+		};
+		179BBEC729ACED05006DDC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-EagleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flying Eagle";
+			};
+			name = Debug;
+		};
+		179BBEC829ACED05006DDC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Flying-EagleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flying Eagle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179BBE9629ACED02006DDC58 /* Build configuration list for PBXProject "Flying Eagle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BBEBE29ACED05006DDC58 /* Debug */,
+				179BBEBF29ACED05006DDC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BBEC029ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying Eagle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BBEC129ACED05006DDC58 /* Debug */,
+				179BBEC229ACED05006DDC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BBEC329ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying EagleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BBEC429ACED05006DDC58 /* Debug */,
+				179BBEC529ACED05006DDC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BBEC629ACED05006DDC58 /* Build configuration list for PBXNativeTarget "Flying EagleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BBEC729ACED05006DDC58 /* Debug */,
+				179BBEC829ACED05006DDC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179BBE9329ACED02006DDC58 /* Project object */;
+}
